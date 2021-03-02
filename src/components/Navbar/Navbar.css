@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 32px 15px 42px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userImage {
+  position: relative;
+  margin-left: 10px;
+}
+
+.userImage:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #c4662d;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px 23px;
+  color: #8b8c96;
+  margin-top: 6px;
+}

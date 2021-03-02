@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000b;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #eff1fe;
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px 30px 0px 40px;
+}
+
+.welcome {
+  flex-grow: 1;
+}
+
+.info {
+  width: 370px;
+}
+
+.welcome {
+  padding: 10px 60px 10px 0px;
+}
+
+.task {
+  background-color: #6263d5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  padding: 20px 35px;
+}
+
+.recruit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: #6263d5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.row {
+  display: flex;
+  background-color: #fff;
+  padding: 5px 35px;
+  width: 100%;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px 0px;
+  font-size: 13px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.head {
+  display: flex;
+  margin: 18px 0px 4px 70px;
+}
+
+.des {
+  margin-left: 180px;
+}
+
+.sta {
+  margin-left: 150px;
+}
+
+.designation {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+.dot {
+  width: 25px;
+  height: 25px;
+  stroke-width: 50;
+}
+
+.threedots {
+  width: 25px;
+  height: 25px;
+  color: #aaa;
+}
+
+.red {
+  color: #f18671;
+  background-color: #fad9d2;
+}
+
+.orange {
+  color: #f1b252;
+  background-color: #fadfb5;
+}
+
+.blue {
+  color: #8789e4;
+  background-color: #d7d8f7;
+}
+
+.green {
+  color: #86d698;
+  background-color: #ddf1e2;
+}
+
+.reddot {
+  color: #f18671;
+}
+
+.orangedot {
+  color: #f1b252;
+}
+
+.bluedot {
+  color: #8789e4;
+}
+
+.greendot {
+  color: #86d698;
+}
+
+.left_task {
+  width: 50%;
+  color: #fffe;
+}
+
+.left_task h3 {
+  margin-bottom: 20px;
+}
+
+.left_task p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn_orange {
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #ed973d;
+}
+
+.bannerImg {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  background-image: linear-gradient(to right, #6263d5, #6263d5),
+    url("./assets/images/undraw_task_31wc.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
